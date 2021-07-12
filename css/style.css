@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+header {
+  height: 48px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 3fr 0.5fr;
+}
+
+.menu li {
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+}
