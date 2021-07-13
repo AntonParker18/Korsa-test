@@ -29,7 +29,7 @@
 }
 
 .logo {
-text-align: start;
+text-align: end;
 }
 
 .menu li{
@@ -45,8 +45,8 @@ text-align: start;
   font-weight: bold;
 }
 
-.phone_namber {
-  text-align: center;
+.phone_number {
+  text-align: end;
   font-weight: bold;
 }
 
@@ -225,3 +225,190 @@ text-align: start;
 .first_word {
   color: #ff8500;
 }
+
+.price_window {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px 60px;
+}
+
+.title_price h2{
+  text-transform: uppercase;
+  color: #0e3d6b;
+  font-weight: 600;
+
+  padding-left: 0;
+}
+
+.title_price {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.price_line {
+  position: relative;
+  bottom: 30px;
+}
+
+.price_lorem p{
+  color: #3671a7;
+  font-weight: bold;
+}
+
+.container_order {
+  padding: 0px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+
+}
+.link {
+  width: 250px;
+  margin: 0 auto;
+}
+.link a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #3671a7;
+}
+
+.red_border img{
+  position: relative;
+  text-align: start;
+  right: 25%;
+  top: 15px;
+}
+
+.window4 {
+  padding-bottom: 1em;
+}
+
+.price_order1, .price_order2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #777;
+}
+
+
+.price_order1 s {
+  color: #000;
+  text-decoration-color: #bb3545;
+  font-weight: bold;
+}
+
+.price_order2 {
+  padding-bottom: 1em;
+}
+
+.cash {
+  color: #ff8500;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.grn {
+  font-size: 3em;
+  font-weight: bold;
+  color: #3671a7;
+}
+
+.price_btn {
+  border: 3px solid #4bbe3f;
+  background-color: #4bbe3f;
+  height: 30px;
+  width: 145px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.price_btn a {
+  font-family: "MyriadProRegular";
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.box {
+  display: grid;
+  grid-template-rows: 0fr 2fr 0.7fr 0fr 0fr 1fr ;
+}
+
+.img_icon {
+  padding: 0px 60px;
+}
+
+.container_icon {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr;
+  padding: 0.5em;
+  align-items: center;
+}
+
+.slayder {
+  margin: 60px 0px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img img {
+  padding: 0em 1em;
+}
+
+.btn_left, .btn_right {
+  align-self: center;
+  text-align: center;
+  color: #ff8500;
+  font-size: 2em;
+}
+
+.helping {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  align-items: center;
+  text-align: center;
+  background: #e2eaf1;
+}
+
+.help_title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  padding: 1em;
+}
+
+.help_lorem p{
+  font-size: 17px;
+  padding: 1em;
+}
+
+.help_register {
+  padding: 0px 60px;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #ff8500;
+  background-color: #ff8500;
+  border-radius: 10px;
+  padding: 3px 25px;
+  margin: 1em;
+}
+
+.input {
+  padding: 5px;
+  margin: 1em;
+  border: 1px solid #777;
+  border-color: #777;
+}
+
